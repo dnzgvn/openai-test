@@ -1,0 +1,16 @@
+python3 -m venv openai-env1-1
+source openai-env/bin/activate
+pip install --upgrade openai
+pip install python-dotenv
+
+https://platform.openai.com/docs/quickstart?context=python
+
+git init
+git remote add origin https://github.com/dnzgvn/openai-test.git
+git status
+git add openai-test1.py
+git commit
+git push --set-upstream origin master
+git pull
+git reflog
+history
